@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest",
-    "start": "react-scripts start"
+    "start": "webpack-dev-server --inline --mode development --open"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
